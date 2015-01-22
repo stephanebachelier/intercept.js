@@ -1,0 +1,23 @@
+{
+  "name": "intercept.js",
+  "version": "0.0.0",
+  "description": "Automatically manage link clicks and form submissions",
+  "main": "dist/intercept.js",
+  "author": {
+    "name": "Stéphane Bachelier",
+    "email": "stephane.bachelier@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/stephanebachelier/intercept.js.git",
+    "type": "git"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
