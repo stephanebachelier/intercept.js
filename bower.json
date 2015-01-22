@@ -1,6 +1,6 @@
 {
   "name": "intercept.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Automatically manage link clicks and form submissions",
   "main": "dist/intercept.js",
   "author": {
