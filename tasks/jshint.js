@@ -7,7 +7,7 @@ module.exports = {
     src: ['Gruntfile.js', 'tasks/{,*/}*.js']
   },
   lib: {
-    src: ['lib/*.js']
+    src: ['lib/intercept.js']
   },
   test: {
     src: ['test/**/*.js']
