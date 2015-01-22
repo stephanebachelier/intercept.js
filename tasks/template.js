@@ -4,8 +4,8 @@ module.exports = {
       version: '<%= version %>'
     }
   },
-  intercept: {
-    src: '<%= preprocess.intercept.dest %>',
-    dest: '<%= preprocess.intercept.dest %>'
+  interception: {
+    src: '<%= preprocess.interception.dest %>',
+    dest: '<%= preprocess.interception.dest %>'
   }
 };

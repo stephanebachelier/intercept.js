@@ -4,7 +4,7 @@ module.exports = {
     stripBanners: true
   },
   dist: {
-    src: ['dist/intercept.js'],
-    dest: 'dist/intercept.js'
+    src: ['dist/interception.js'],
+    dest: 'dist/interception.js'
   }
 };

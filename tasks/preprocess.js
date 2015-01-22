@@ -1,6 +1,6 @@
 module.exports = {
-  intercept: {
+  interception: {
     src: 'lib/wrapper.js',
-    dest: 'dist/intercept.js'
+    dest: 'dist/interception.js'
   }
 };

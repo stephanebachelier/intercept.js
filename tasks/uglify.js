@@ -4,7 +4,7 @@ module.exports = {
   },
   dist: {
     src: '<%= concat.dist.dest %>',
-    dest: 'dist/intercept.min.js',
+    dest: 'dist/interception.min.js',
     options: {
       sourceMap: true
     }

@@ -1,15 +1,15 @@
 {
-  "name": "intercept.js",
+  "name": "interception",
   "version": "0.1.0",
   "description": "Automatically manage link clicks and form submissions",
-  "main": "dist/intercept.js",
+  "main": "dist/interception.js",
   "readmeFilename": "README.md",
   "author": {
     "name": "Stéphane Bachelier",
     "email": "stephane.bachelier@gmail.com"
   },
   "repository": {
-    "url": "https://github.com/stephanebachelier/intercept.js.git",
+    "url": "https://github.com/stephanebachelier/interception.git",
     "type": "git"
   },
   "license": "MIT",
