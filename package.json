@@ -1,6 +1,6 @@
 {
   "name": "interception",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Automatically manage link clicks and form submissions",
   "main": "dist/interception.js",
   "readmeFilename": "README.md",

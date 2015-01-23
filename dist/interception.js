@@ -1,5 +1,5 @@
-/*! interception - v0.1.1
- *  Release on: 2015-01-22
+/*! interception - v0.1.2
+ *  Release on: 2015-01-23
  *  Copyright (c) 2015 Stéphane Bachelier
  *  Licensed MIT */
 (function (root, factory) {
@@ -60,6 +60,9 @@
       e.preventDefault();
     },
   
+    // match if the URL is absolute, or if the protocol is mailto or javascript
+    linkRegexp: /^#|javascript:|mailto:|(?:\w+:)?\/\//,
+  
     _interceptLinks: function (e) {
       // Only intercept left-clicks
       if (e.which !== 1) {
@@ -89,8 +92,10 @@
         return;
       }
   
-      // Return if the URL is absolute, or if the protocol is mailto or javascript
-      if (/^#|javascript:|mailto:|(?:\w+:)?\/\//.test(link.href)) { return; }
+      // Return if the links regexp match
+      if ((false !== this.linkRegexp) && this.linkRegexp.test(link.href)) {
+        return;
+      }
   
       // If we haven't been stopped yet, then we prevent the default action
       e.preventDefault();
